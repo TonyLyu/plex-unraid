@@ -35,8 +35,8 @@
   <URL>&pkgURL;/&plgNAME;.txz</URL>
  </FILE>
 
-
-
+<FILE Run="/bin/bash">
+<INLINE>
 echo ""
 echo "-----------------------------------------------------------"
 echo " &name; has been installed."
@@ -47,6 +47,4 @@ echo "-----------------------------------------------------------"
 echo ""
 </INLINE>
 </FILE>
-
-
 </PLUGIN>
